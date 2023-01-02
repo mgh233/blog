@@ -16,7 +16,7 @@ style:
   primary_color: "#005080"
 
   # Avatar (You can use local image or image external link)
-  avatar: /images/avatar.jpg # avatar of the author
+  avatar: /images/图片1.jpg # avatar of the author
 
   # Favicon (You can use local image or image external link)
   favicon: /images/logo.svg # favicon of the site
