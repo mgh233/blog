@@ -73,9 +73,9 @@
     <div class="page-main-content">
 
         <div class="page-main-content-top">
-            <header class="header-wrapper">
+            <header class="menu-wrapper">
     
-    <div class="header-content">
+    <div class="menu-content">
         <div class="left">
             
             <a class="logo-title" href="/">
@@ -136,7 +136,7 @@
     </div>
 
     <!-- Mobile drawer -->
-    <div class="header-drawer">
+    <div class="menu-drawer">
         <ul class="drawer-menu-list">
             
                 
@@ -199,9 +199,9 @@
                 
                     <li class="article-item">
                         <a class="article-title"
-                           href="/blog/2023/01/11/hello-world/"
+                           href="/blog/2023/01/24/hello-world/"
                         >Hello World</a>
-                        <span class="article-date">01-11</span>
+                        <span class="article-date">01-24</span>
                     </li>
                 
             </ul>
@@ -285,40 +285,40 @@
 
     <div class="right-bottom-side-tools">
         <div class="side-tools-container">
-    <ul class="side-tools-list">
-        <li class="tools-item tool-font-adjust-plus flex-center">
-            <i class="fa-solid fa-magnifying-glass-plus"></i>
+    <ul class="unfolded-tools-list">
+        <li class="right-bottom-tools tool-font-adjust-plus flex-center">
+            <i class="fa-regular fa-magnifying-glass-plus"></i>
         </li>
 
-        <li class="tools-item tool-font-adjust-minus flex-center">
-            <i class="fa-solid fa-magnifying-glass-minus"></i>
+        <li class="right-bottom-tools tool-font-adjust-minus flex-center">
+            <i class="fa-regular fa-magnifying-glass-minus"></i>
         </li>
 
-        <li class="tools-item tool-expand-width flex-center">
-            <i class="fa-solid fa-left-right"></i>
+        <li class="right-bottom-tools tool-expand-width flex-center">
+            <i class="fa-regular fa-expand"></i>
         </li>
 
-        <li class="tools-item tool-dark-light-toggle flex-center">
-            <i class="fa-solid fa-moon"></i>
+        <li class="right-bottom-tools tool-dark-light-toggle flex-center">
+            <i class="fa-regular fa-moon"></i>
         </li>
 
         <!-- rss -->
         
 
         
-            <li class="tools-item tool-scroll-to-top flex-center">
-                <i class="fa-solid fa-arrow-up"></i>
+            <li class="right-bottom-tools tool-scroll-to-top flex-center">
+                <i class="fa-regular fa-arrow-up"></i>
             </li>
         
 
-        <li class="tools-item tool-scroll-to-bottom flex-center">
-            <i class="fa-solid fa-arrow-down"></i>
+        <li class="right-bottom-tools tool-scroll-to-bottom flex-center">
+            <i class="fa-regular fa-arrow-down"></i>
         </li>
     </ul>
 
-    <ul class="exposed-tools-list">
-        <li class="tools-item tool-toggle-show flex-center">
-            <i class="fa-solid fa-cog fa-spin"></i>
+    <ul class="folded-tools-list">
+        <li class="right-bottom-tools tool-toggle-show flex-center">
+            <i class="fa-regular fa-cog fa-spin"></i>
         </li>
         
     </ul>
@@ -333,6 +333,7 @@
 
     
 
+
 </main>
 
 
@@ -342,33 +343,33 @@
 
 <script src="/blog/js/main.js"></script>
 
-<script src="/blog/js/header-shrink.js"></script>
+<script src="/blog/js/layouts/menu-shrink.js"></script>
 
-<script src="/blog/js/back2top.js"></script>
+<script src="/blog/js/tools/go-top-bottom.js"></script>
 
-<script src="/blog/js/dark-light-toggle.js"></script>
+<script src="/blog/js/tools/dark-light-toggle.js"></script>
 
-
-
-
-
-    
-<script src="/blog/js/code-copy.js"></script>
 
 
 
 
     
-<script src="/blog/js/lazyload.js"></script>
+<script src="/blog/js/tools/code-block.js"></script>
 
 
 
 
     
-<script src="/blog/js/runtime.js"></script>
+<script src="/blog/js/layouts/lazyload.js"></script>
+
+
+
 
     
-<script src="/blog/js/odometer.min.js"></script>
+<script src="/blog/js/tools/runtime.js"></script>
+
+    
+<script src="/blog/js/layouts/odometer.min.js"></script>
 
     
 <link rel="stylesheet" href="/blog/css/odometer-theme-minimal.css">
@@ -376,6 +377,7 @@
 
 
 <div class="post-scripts pjax">
+    
     
 </div>
 
